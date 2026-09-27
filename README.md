@@ -29,7 +29,7 @@ c# programming language
 - Main windows: Designer, Solution Explorer, Properties, Toolbox.
 - Project vs Solution: a project is one application; a solution is a container for projects.
 - Naming controls: start with a letter or `_`, no spaces, use camelCase (`showDayButton`).
-- Code structure: Namespace ⟶ Class ⟶ Method. GUI apps are event-driven.
+- Code structure: Namespace ---> Class ---> Method. GUI apps are event-driven.
 - Common statements:
 
 C#
