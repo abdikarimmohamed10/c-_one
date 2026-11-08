@@ -1,75 +1,117 @@
-
-| Course Title | C# Programming I |
-
-| Course Code | CA242 |
-
-| Department | Computer Application |
-
-| Faculty | Computer & Information Technology |
-
-| University | Jamhuriya University of Science & Technology |
-
-| Academic Year | 2026 |
-
-| Semester | IV |
-
-| Student | Abdikarim Mohamed Salad |
-
-
-# ASSIGMENTS
-c# programming language
-
-# Starting Out with Visual C# (Gaddis, 6th Edition)
+# General Explanation of Chapter 1,2,3 & 4
 
 ## Chapter 1: Introduction to Visual C#
 
-- Object: a program component with data (properties) and operations (methods).
-- Control: a visible object in a GUI (Label, Button, TextBox). A class describes a type of object.
-- .NET: a collection of classes for building Windows programs. Visual Studio is the IDE.
-- Main windows: Designer, Solution Explorer, Properties, Toolbox.
-- Project vs Solution: a project is one application; a solution is a container for projects.
-- Naming controls: start with a letter or `_`, no spaces, use camelCase (`showDayButton`).
-- Code structure: Namespace ---> Class ---> Method. GUI apps are event-driven.
-- Common statements:
-
-C#
-MessageBox.Show("Hello World");
-answerLabel.Text = "Result";
-this.Close();          // close the form
-
-
-- Comments: // line and /* block */.
-- Errors: syntax errors show a red wavy line; wrong statement order causes logic errors.
-
+- Objects: Components that contain data and perform operations.
+- Properties: Data that describes an object.
+- Methods: Operations an object can perform.
+- Controls: GUI objects such as Label, Button, and TextBox.
+- Visual Studio: IDE used to create C# applications.
+- Toolbox: Used to select and add controls to a form.
+- Properties Window: Used to change the appearance and behavior of controls.
+- Project & Solution: A project contains an application; a solution can contain one or more projects.
+- Events: Actions such as clicking a button or moving the mouse.
+- Event Handler: Code that responds to an event.
+- Label: Displays text.
+- PictureBox: Displays images.
+- Comments: "//" and "/* */" are used to explain code.
+- Syntax Errors: Errors in the rules/structure of C# code.
 
 ## Chapter 2: Processing Data
 
-Variables and types
+- TextBox: Used to receive user input.
+- Variables: Memory locations used to store data.
+- Data Types: Define what type of data a variable can hold.
+- String: Stores characters/text.
+- int: Stores whole numbers.
+- double: Stores numbers with fractional values.
+- decimal: Provides more precision and is commonly used for financial values.
+- Arithmetic Operators: "+", "-", "*", "/", "%".
+- Type Conversion: Used when changing one data type to another.
+- ToString(): Converts a value to a string.
+- Exception Handling: Handles unexpected runtime errors using "try" and "catch".
+- Named Constants: Values declared with "const" that cannot change.
+- Fields: Variables declared at class level.
+- Math Class: Provides mathematical methods such as "Sqrt", "Pow", "Max", and "Min".
+- Logic Errors: Errors that allow the program to run but produce incorrect results.
+- Debugging: Uses breakpoints, Locals, Watch, and single-stepping to find logic errors.
 
-| Type | Use | Example |
-|---|---|---|
-| `string` | Text | `"Hello"` |
-| `int` | Whole numbers | `40` |
-| `double` | Fractions | `87.6` |
-| `decimal` | Money (literal ends with `m`) | `28.75m` |
+
+## Chapter 3: Making Decisions
+
+- Control Structures: Logical designs that control the order in which statements execute.
+- Sequence Structure: A set of statements that execute in the order they appear.
+- Decision Structure: Executes statements only under certain conditions.
+- Selection Structure: Another name for a decision structure.
+- if Statement: Executes statements when a condition is true.
+- Boolean Expression: An expression that evaluates to either true or false.
+- Relational Operators: Used to compare two values.
+- Greater Than (>): Checks if one value is greater than another.
+- Less Than (=): Checks if one value is greater than or equal to another.
+- Less Than or Equal To
 
 
-Calculations
-- Operators: + - * / % . Integer division: 7 / 3 = 2 ; use (double)x / y for 2.33.
-- `double` and `decimal` cannot be mixed in one operation.
+## Chapter 4 Loops And Files
 
-Input and output
-- TextBox text is a string.
- Convert with int.Parse, double.Parse, decimal.Parse.
+# The while Loop
+- while Loop: Repeats a statement or group of statements as long as a Boolean expression is true.
+- Boolean Expression: A condition that evaluates to true or false.
+- while Clause: The first line of a while loop that contains the condition.
+- Loop Body: Statements inside the curly braces that are repeated.
+- Iteration: One complete execution of a loop.
+- Counter Variable: A variable used to track how many times a loop runs.
+- Pretest Loop: A loop that checks its condition before executing the statements.
+- Infinite Loop: A loop that continues running because its condition never becomes false.
 
+# The Increment and Decrement Operators
+- Increment Operator (++): Increases a variable's value by 1.
+- Decrement Operator (--): Decreases a variable's value by 1.
+- Postfix Mode: Uses the old value first, then changes it.
+- Prefix Mode: Changes the value first, then uses it.
 
-------
+# The for Loop
+- for Loop: Repeats statements using a counter variable to control the number of iterations.
+- Initialization: Sets the initial value of the counter variable.
+- Test Expression: Checks whether the loop condition is true or false.
+- Update Expression: Increases or decreases the counter variable.
+- Pretest Loop: Checks the condition before executing the loop body.
+- Counting Forward: Increases the counter variable.
+- Counting Backward: Decreases the counter variable.
 
-- var is optional, not mandatory. Whenever the assigned value is known, var shortens the code, but it always requires an initialization value at the point of declaration.
-- Numeric types (int, double, decimal) matter in calculations. Mixing types works when one side is int, but double and decimal cannot be combined directly - types need to be checked before combining them.
-- int / int division can silently lose data. For example, 7 / 3 returns 2, not 2.33. Casting one operand to double fixes this.
-- Everything from a TextBox is a string, even if it looks like a number - so int.Parse(), double.Parse(), or decimal.Parse() is always needed before doing math with it.
-- To display a number, it must be converted back to a string with .ToString(), which can also be formatted (currency, percentage, etc.) when a cleaner display is needed.
-- Exceptions are a normal part of programs, so try-catch isn't optional - it's how you keep a program from crashing when a user enters invalid input. ex.Message tells you exactly what went wrong.
-- Constants (const) are for values that never change (like an interest rate), making the code easier to read and preventing accidental changes later.
+# The do-while Loop
+- do-while Loop: Repeats statements and checks the condition after executing them.
+- Posttest Loop: A loop that checks its condition after executing the statements.
+- Boolean Expression: Determines whether the loop should repeat.
+- At Least Once: A do-while loop always executes its statements at least once.
 
+# Using Files for Data Storage
+- File: Used to store data for later use.
+- File Handling: The process of creating, reading, writing, and closing files.
+- Opening a File: Creates a connection between the file and the program.
+- Processing a File: Reading data from or writing data to a file.
+- Closing a File: Disconnects the file from the program.
+- Text File: Contains data encoded as text.
+- Binary File: Contains data that has not been converted into text.
+- File Object: An object associated with a specific file.
+- StreamWriter: A class used to write data to a text file.
+- StreamReader: A class used to read data from a text file.
+- Write(): Writes data to a file without adding a new line.
+- WriteLine(): Writes data to a file and moves to a new line.
+- CreateText(): Creates a new text file. If the file exists, its contents are erased.
+- AppendText(): Adds new data to an existing file without erasing its contents.
+- Read(): Reads characters from a file.
+- ReadLine(): Reads one line of text from a file.
+- ReadToEnd(): Reads all remaining data from a file.
+- ReadAllText(): Reads all text from a file.
+- EndOfStream: A Boolean property that indicates whether the end of a file has been reached.
+
+# The OpenFileDialog and SaveFileDialog Controls
+- OpenFileDialog: Displays a Windows dialog box that allows users to select a file to open.
+- SaveFileDialog: Displays a Windows dialog box that allows users to select where to save a file.
+- Invisible Controls: Controls that do not appear directly on the form.
+- ShowDialog(): Displays an Open or Save dialog box.
+- DialogResult: Indicates which button the user clicked to close the dialog box.
+- DialogResult.OK: Indicates that the user confirmed the selection.
+- DialogResult.Cancel: Indicates that the user cancelled the operation.
+- FileName: Stores the selected file's path and filename.
+- InitialDirectory: Specifies the folder that appears first when the dialog box opens.
