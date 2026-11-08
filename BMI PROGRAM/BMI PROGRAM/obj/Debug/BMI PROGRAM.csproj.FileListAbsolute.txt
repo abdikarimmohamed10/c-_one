@@ -1,0 +1,11 @@
+C:\Users\sadri\OneDrive\Desktop\c#\chapter1\First example chapter1\BMI PROGRAM\BMI PROGRAM\bin\Debug\BMI PROGRAM.exe.config
+C:\Users\sadri\OneDrive\Desktop\c#\chapter1\First example chapter1\BMI PROGRAM\BMI PROGRAM\bin\Debug\BMI PROGRAM.exe
+C:\Users\sadri\OneDrive\Desktop\c#\chapter1\First example chapter1\BMI PROGRAM\BMI PROGRAM\bin\Debug\BMI PROGRAM.pdb
+C:\Users\sadri\OneDrive\Desktop\c#\chapter1\First example chapter1\BMI PROGRAM\BMI PROGRAM\obj\Debug\BMI PROGRAM.csproj.AssemblyReference.cache
+C:\Users\sadri\OneDrive\Desktop\c#\chapter1\First example chapter1\BMI PROGRAM\BMI PROGRAM\obj\Debug\BMI_PROGRAM.Form1.resources
+C:\Users\sadri\OneDrive\Desktop\c#\chapter1\First example chapter1\BMI PROGRAM\BMI PROGRAM\obj\Debug\BMI_PROGRAM.Properties.Resources.resources
+C:\Users\sadri\OneDrive\Desktop\c#\chapter1\First example chapter1\BMI PROGRAM\BMI PROGRAM\obj\Debug\BMI PROGRAM.csproj.GenerateResource.cache
+C:\Users\sadri\OneDrive\Desktop\c#\chapter1\First example chapter1\BMI PROGRAM\BMI PROGRAM\obj\Debug\BMI PROGRAM.csproj.CoreCompileInputs.cache
+C:\Users\sadri\OneDrive\Desktop\c#\chapter1\First example chapter1\BMI PROGRAM\BMI PROGRAM\obj\Debug\BMI PROGRAM.exe
+C:\Users\sadri\OneDrive\Desktop\c#\chapter1\First example chapter1\BMI PROGRAM\BMI PROGRAM\obj\Debug\BMI PROGRAM.pdb
+C:\Users\sadri\OneDrive\Desktop\c#\chapter1\First example chapter1\BMI PROGRAM\BMI PROGRAM\obj\Debug\BMI PROGRAM.exe.config
